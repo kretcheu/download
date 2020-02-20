@@ -1,0 +1,6 @@
+## Lista de repositorios do Debian Buster
+
+deb http://deb.debian.org/debian buster main
+deb http://deb.debian.org/debian buster-updates main
+deb http://security.debian.org buster/updates main
+
