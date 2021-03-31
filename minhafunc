@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+## Essa função tem por objetivo imprimir uma palavra "rodeada" por um caracter.
+## Caracter e palavra serão passados como argumentos
+## Deve ser impresso seguindo o modelo:
+
+## XXXXXXXXX
+## X teste X
+## XXXXXXXXX
+
+## Definição da função minhafunc
+
+minhafunc () {
+   echo -e "$1$1${2//?/$1}$1$1\n$1 ${2} $1\n$1$1${2//?/$1}$1$1"
+}
+
+# Execução da função passando 2 argumentos, sendo o primeiro um caracter e o segundo uma palavra.
+
+minhafunc $1 $2
+
