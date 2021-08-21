@@ -1,0 +1,6 @@
+## Lista de repositorios do Debian Bullseye
+
+deb http://deb.debian.org/debian bullseye main
+deb http://deb.debian.org/debian bullseye-updates main
+deb https://security.debian.org bullseye/updates main
+
